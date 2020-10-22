@@ -13,8 +13,8 @@ npm i backend-contact-form
 
 Create a .env file and paste this
 ```javascript
-EMAIL = "your-email-here"
-PASS = "your-email-password-here"
+EMAIL = "your-gmail"
+PASS = "your-email-password or app-specific-password"
 ```
 This will get imported, don't share or upload your .env file.
 
