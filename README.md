@@ -4,10 +4,10 @@
 npm i backend-contact-form
 ```
 #### Dependencies 
-nodemailer <br>
-express <br>
-body-parser <br>
-dotenv
+* nodemailer <br>
+* express <br>
+* body-parser <br>
+* dotenv
 
 ## Setup
 
@@ -29,7 +29,6 @@ The port is set to 8080, you can change the 'PORT' variable if you wish, the res
 ## How to use
 
 ```javascript
-
 var mail = require("backend-contact-form");
 
 mail(
@@ -52,6 +51,10 @@ mail(
     `
 );
 ```
+
+Go to localhost:8080 (if you didn't change the 'PORT' variable), and your form will show.
+
+Submit, and the module will parse the data and send the email to your gmail account!
 
 ## Warning
 Gmail has some built-in security, and if you use multi-factor authentication, you're required to create an app specific password. This is done on your google profile.
