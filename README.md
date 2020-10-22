@@ -49,7 +49,7 @@ mail(
 #### Starting server
 
 ```javascript
-npm start
+node yourscriptname
 ```
 
 The port is set to 8080, you can change the 'PORT' variable if you wish, the rest of the code will follow along.
