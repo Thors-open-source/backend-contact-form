@@ -18,6 +18,8 @@ PASS = "your-email-password or app-specific-password"
 ```
 This will get imported, don't share or upload your .env file.
 
+Gmail has some built-in security, and if you use multi-factor authentication, you're required to create an app specific password. This is done on your google profile.
+
 #### Starting server
 
 ```javascript
@@ -55,7 +57,4 @@ mail(
 Go to localhost:8080 (if you didn't change the 'PORT' variable), and your form will show.
 
 Submit, and the module will parse the data and send the email to your gmail account!
-
-## Warning
-Gmail has some built-in security, and if you use multi-factor authentication, you're required to create an app specific password. This is done on your google profile.
 
