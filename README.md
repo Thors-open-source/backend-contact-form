@@ -20,14 +20,6 @@ This will get imported, don't share or upload your .env file.
 
 Gmail has some built-in security, and if you use multi-factor authentication, you're required to create an app specific password. This is done on your google profile.
 
-#### Starting server
-
-```javascript
-npm start
-```
-
-The port is set to 8080, you can change the 'PORT' variable if you wish, the rest of the code will follow along.
-
 ## How to use
 
 ```javascript
@@ -53,6 +45,15 @@ mail(
     `
 );
 ```
+
+#### Starting server
+
+```javascript
+npm start
+```
+
+The port is set to 8080, you can change the 'PORT' variable if you wish, the rest of the code will follow along.
+
 
 Go to localhost:8080 (if you didn't change the 'PORT' variable), and your form will show.
 
